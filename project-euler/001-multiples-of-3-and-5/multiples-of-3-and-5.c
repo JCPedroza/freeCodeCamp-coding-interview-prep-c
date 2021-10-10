@@ -12,8 +12,3 @@ int multiplesOf3and5(int limit) {
 
     return sum;
 }
-
-int main(int argc, char *argv[]) {
-    int num = strtol(argv[1], NULL, 10);
-    printf("%d\n", multiplesOf3and5(num));
-}
