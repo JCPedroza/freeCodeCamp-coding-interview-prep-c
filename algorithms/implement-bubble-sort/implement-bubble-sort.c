@@ -1,6 +1,4 @@
-#include <stdlib.h>
-
-double* bubbleSort(double* nums, size_t size) {
+double* bubbleSort(double* nums, int size) {
     for (int round = 0; round < size - 1; round++) {
         for (int index = 0; index < size - round - 1; index++) {
             if (nums[index] > nums[index + 1]) {
