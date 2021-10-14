@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int fiboEvenSum(int limit) {
     int previous = 0;
     int current = 1;
